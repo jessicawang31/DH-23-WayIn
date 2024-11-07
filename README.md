@@ -1,37 +1,37 @@
-# Graphs and Glucose: Predicting Diabetes Using Machine Learning
+# WayIn: Accessible Campus Navigation
 
-## Authors
-Matthew Nguyen, Jessica Wang, Madelyn Lee
+## Inspiration
+As students on a large college campus, we often face challenges locating open building entrances, especially after hours or during the start of a new term. Recognizing that individuals with disabilities might encounter even greater difficulties when seeking accessible entrances, we developed **WayIn**. Our goal is to simplify navigation for everyone, ensuring that everyday tasks, such as finding building entrances, are made easier and more inclusive.
 
-## Project Overview
-This project explores the relationship between various health factors and the likelihood of developing diabetes. By leveraging machine learning models, we aim to uncover key insights that could lead to better prevention strategies, earlier diagnosis, and personalized treatment plans.
+## What It Does
+**WayIn** is a mobile map application that identifies accessible and open campus building entrances, offering users specific directions to their chosen destinations. Its standout feature is the ability to filter entrances based on accessibility needs, allowing users to navigate with ease and confidence.
 
-## Motivation
-Diabetes is a significant global health concern, with its prevalence steadily increasing. This project investigates the following:
-- The factors most influencing diabetes risk.
-- The correlation between body mass index (BMI) and diabetes.
-- How accurately machine learning models can predict diabetes.
-- The most effective machine learning models for prediction.
+## How We Built It
+- **Prototype**: Designed on **Figma**, focusing on a clean and accessible user interface.
+- **Frontend Development**: Built using **HTML**, **CSS**, and **JavaScript** within **Visual Studio Code**.
+- **API Integration**: Incorporated **Google Maps/Cloud APIs** for real-time navigation and mapping.
+- **Data Source**: Integrated features from UW’s Accessible Guide Map to locate and distinguish between standard and accessible entrances.
 
-## Research Questions
-1. **What factors most influence a person's disposition to developing diabetes?**  
-   Higher HbA1C levels and blood glucose levels are closely linked with diabetes.
-2. **How accurately can we predict diabetes based on basic health statistics?**  
-   Models achieve an average accuracy of 89.7%.
-3. **Is there a correlation between BMI and diabetes?**  
-   BMI correlates with diabetes when coupled with age.
-4. **Which model most accurately predicts diabetes?**  
-   The Random Forest model achieved the highest accuracy of 97.3%.
+## Challenges
+- **Learning Curve**: With limited experience in coding and APIs, we faced difficulties mastering platforms such as VSCode and Google Maps API on the spot.
+- **Tight Timeline**: The complexity of combining various project elements within the short duration of the hackathon was a major hurdle.
+- **Integration Issues**: Despite these challenges, we devised a cohesive and viable solution with future scalability in mind.
 
-## Methodology
-This project utilizes multiple machine learning models, including:
-- Logistic Regression
-- Decision Trees
-- Random Forests
+## Accomplishments
+- Successfully developed and presented a functional Figma prototype.
+- Delegated tasks effectively, leveraging team members' strengths.
+- Learned and applied multiple programming languages and technologies during the hackathon.
 
-Data preprocessing, visualization, and model evaluation were conducted using Python libraries such as `numpy`, `pandas`, `matplotlib`, and `scikit-learn`.
+## What We Learned
+- **Technical Skills**: Enhanced our understanding of Google Maps API and its features.
+- **Teamwork**: Gained valuable experience in collaboration, problem-solving, and task delegation, which were crucial for overcoming obstacles as a team of novice coders.
 
-## Results
-- The Random Forest model outperformed other models with an accuracy of 97.3%.
-- Key health factors such as HbA1C levels and blood glucose were identified as significant predictors.
-- Combined attributes like BMI and age provided better predictive insights.
+## What's Next for WayIn
+- **Real-Time Data**: Request access to UW’s real-time building entrance availability and integrate it into the app.
+- **Full-Stack Development**: Transition from prototype to full-stack implementation.
+- **Scalability**: Expand WayIn to other university campuses and potentially integrate it into Google Maps.
+- **Enhancements**: Redefine navigation systems to mitigate accessibility issues globally.
+
+## Try It Out
+- **Prototype Link**: [View on Figma](https://www.figma.com/proto/1MdA4ftuIzdOQj7V2NaXU4/Untitled?node-id=0-1&t=xx8TeaESzucSMzdz-1)
+- **Devpost Submission**: [WayIn on Devpost](https://devpost.com/software/wayin-dwgyzn)
